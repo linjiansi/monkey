@@ -1,7 +1,7 @@
 FROM golang:latest
 
-RUN mkdir /go/src/work
+RUN mkdir /go/src/monkey
 
-WORKDIR /go/src/work
+WORKDIR /go/src/monkey
 
-ADD . /go/src/work
+ADD . /go/src/monkey
